@@ -7,7 +7,7 @@ const appDefaults = require('../_data/defaults.json');
 
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
-
+console.log("this is my name ","kishan la rai ")
 const pixelToId = pixel => `${pixel.x}|${pixel.y}|${pixel.username}`;
 const coordinatesToId = coord => `${coord.x},${coord.y}`;
 
